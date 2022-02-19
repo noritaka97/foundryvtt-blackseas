@@ -40,6 +40,6 @@
   "secondaryTokenAttribute": "shields",
   "url": "https://github.com/noritaka97/foundryvtt-blackseas/",
   "manifest": "https://github.com/noritaka97/foundryvtt-blackseas/system.json",
-  "download": "",
+  "download": "https://github.com/noritaka97/foundryvtt-blackseas/archive/refs/heads/main.zip",
   "license": "LICENSE.txt"
 }
