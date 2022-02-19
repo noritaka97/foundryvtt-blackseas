@@ -1,8 +1,22 @@
 {
   "Actor": {
     "types": ["ship"],
+    "templates": {
+      "combat": {
+        "pilotskill": 1,
+        "hull": {
+            "value": 2,
+            "max": 2
+        },
+        "shields": {
+            "value": 0,
+            "max": 0
+        },
+        "attack": 0,
+        "agility": 0,
+        "actions": ["focus"]
+    },
       "base": {
-        "name": "",
         "health": {
           "value": 10,
           "min": 0,
@@ -17,7 +31,7 @@
       }
     },
     "ship": {
-      "templates": ["base"],
+      "templates": ["combat"],
       "maneuvers": {},
       "size": "small",
       "model": "",
