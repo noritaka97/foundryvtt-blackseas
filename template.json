@@ -1,0 +1,111 @@
+{
+  "Actor": {
+    "types": ["ship"],
+      "base": {
+        "name": "",
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "power": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        },
+        "biography": ""
+      }
+    },
+    "ship": {
+      "templates": ["base"],
+      "maneuvers": {},
+      "size": "small",
+      "model": "",
+      "faction": "imperial",
+      "upgrade_slots": [],
+      "points": 0
+    },
+    "character": {
+      "templates": ["base"],
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      }
+    },
+    "npc": {
+      "templates": ["base"],
+      "cr": 0
+    }
+  },
+  "Item": {
+    "types": ["astromech", "bomb", "cannon", 
+        "crew", "ept", "illicit", "missile", "modification", "pilot", 
+        "salvaged_astromech", "systems", "title", "torpedo", "turret"],
+    "templates": {
+      "base": { 
+        "description": ""
+      },
+      "upgrade": {
+        "points": 0,
+        "unique": false,
+        "limited": false,
+        "description": "",
+        "restriction": [],
+        "slots": 1
+      },
+      "weapon": {
+          "range": 0,
+          "dice": 0
+      }
+    },
+    "astromech":{ "templates": ["upgrade"] },
+    "bomb":{ "templates": ["upgrade"] },
+    "cannon":{ "templates": ["upgrade", "weapon"] },
+    "crew":{ "templates": ["upgrade"] },
+    "ept":{ "templates": ["upgrade"] },
+    "illicit":{ "templates": ["upgrade"] },
+    "missile":{ "templates": ["upgrade", "weapon"] },
+    "modification":{ "templates": ["upgrade"] },
+    "pilot":{ "templates": ["upgrade"] },
+    "salvaged_astromech":{ "templates": ["upgrade"] },
+    "systems":{ "templates": ["upgrade"] },
+    "title":{ "templates": ["upgrade"] },
+    "torpedo":{ "templates": ["upgrade"] },
+    "turret":{ "templates": ["upgrade"] },
+
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "feature": {
+      "templates": ["base"]
+    },
+    "spell": {
+      "templates": ["base"],
+      "spellLevel": 1
+    }
+  }
+}
