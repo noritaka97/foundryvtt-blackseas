@@ -6,7 +6,7 @@
   "templateVersion": 2,
   "author": "Norit@k@ Corps Dev",
   "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "V9",
+  "compatibleCoreVersion": "9",
   "scripts": [
   ],
   "esmodules": [
@@ -41,5 +41,5 @@
   "url": "https://github.com/noritaka97/foundryvtt-blackseas/",
   "manifest": "https://github.com/noritaka97/foundryvtt-blackseas/blob/main/system.json",
   "download": "https://github.com/noritaka97/foundryvtt-blackseas/archive/main.zip",
-  "license": "LICENSE.txt"
+  "license": "LICENSE"
 }
