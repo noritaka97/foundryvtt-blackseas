@@ -1,2 +1,3 @@
-# foundryvtt-blackseas
- Foundry system for Black Seas
+# Black Seas
+
+Black Seas Warlord Game's system for Foundry VTT.
