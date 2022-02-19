@@ -33,7 +33,7 @@
       "path": "lang/fr.json"
     }
   ],
-  "socket": true,
+  "socket": false,
   "gridDistance": 1,
   "gridUnits": "nd",
   "primaryTokenAttribute": "health",
