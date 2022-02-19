@@ -39,7 +39,7 @@
   "primaryTokenAttribute": "hull",
   "secondaryTokenAttribute": "shields",
   "url": "https://github.com/noritaka97/foundryvtt-blackseas/",
-  "manifest": "https://github.com/noritaka97/foundryvtt-blackseas/system.json",
+  "manifest": "https://github.com/noritaka97/foundryvtt-blackseas/blob/main/template.json",
   "download": "https://github.com/noritaka97/foundryvtt-blackseas/archive/refs/heads/main.zip",
   "license": "LICENSE.txt"
 }
