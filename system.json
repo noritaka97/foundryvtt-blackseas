@@ -39,7 +39,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/noritaka97/foundryvtt-blackseas/",
-  "manifest": "https://github.com/noritaka97/foundryvtt-blackseas/main/system.json",
+  "manifest": "https://github.com/noritaka97/foundryvtt-blackseas/blob/main/system.json",
   "download": "https://github.com/noritaka97/foundryvtt-blackseas/archive/main.zip",
   "license": "LICENSE.txt"
 }
