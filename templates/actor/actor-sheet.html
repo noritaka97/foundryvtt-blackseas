@@ -5,7 +5,7 @@
         {{!-- Header stuff goes here --}}
         <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
         <div class="header-fields">
-            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "MYSYSTEM.ActorName"}}"/></h1>
+            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="name"/></h1>
             <div class="resources grid grid-2col">{{!-- resources here --}}</div>
             <div class="abilities grid grid-3col">{{!-- abilities here --}}</div>
         </div>
@@ -35,8 +35,6 @@
         </div>
     </div>
 </div>
-{{!-- ...continued... --}}
-{{!-- ...continued... --}}
 {{!-- Sheet Body --}}
 <section class="sheet-body">
 
@@ -69,8 +67,3 @@
     </div>
 
 </section>
-{{!-- ...continued... --}}
-            </ol>
-        </div>
-    </section>
-</form>
