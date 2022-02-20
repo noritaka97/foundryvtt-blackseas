@@ -3,15 +3,13 @@
  * Pre-loaded templates are compiled and cached for fast access when rendering
  * @return {Promise}
  */
-export const preloadHandlebarsTemplates = async function() {
+ export const preloadHandlebarsTemplates = async function() {
+  return loadTemplates([
 
-  // Define template paths to load
-  const templatePaths = [
-    // Attribute list partial.
-    "systems/worldbuilding/templates/parts/sheet-attributes.html",
-    "systems/worldbuilding/templates/parts/sheet-groups.html"
-  ];
-
-  // Load the template parts
-  return loadTemplates(templatePaths);
+    // Actor partials.
+    "systems/boilerplate/templates/actor/parts/actor-features.html",
+    "systems/boilerplate/templates/actor/parts/actor-items.html",
+    "systems/boilerplate/templates/actor/parts/actor-spells.html",
+    "systems/boilerplate/templates/actor/parts/actor-effects.html",
+  ]);
 };
