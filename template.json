@@ -4,84 +4,52 @@
   "template": {
       "base": {
           "name": "",
-          "pavillon": {
-            "value": ["Black", "British", "Dutch", "French", "Spanish", "US"]
-          },
-          "size": {
-            "value": ["XS: Tiny", "X: Small", "M: Medium", "L: Large", "XL: Extra Large"]
-          },
-          "crewlvl": {
-            "value": ["Novice", "Regular", "Veteran"]
-          },
-          "weapon": {},
-          "cargo": {
-            "crew": [],
-            "loot": [],
-            "marchandise": [],
-            "passenger": []
-          },
+          "nation": "",
+          "size": "",
+          "crew": "",
+          "weapon": "",
+          "ammo": "",
+          "cargo": "",
+          "surrender": "",
           "health": {
-            "value": null,
-            "min": null,
-            "max": null,
-            "surrender": null
+            "value": 10,
+            "min": 0,
+            "max": 10
           },
-          "upgrade": {},
-          "critical": {},
-          "cout": null,
-          "xp": null,
+          "upgrade": "",
+          "critical": "",
           "description": ""
       }
   },
   "ship": {
     "template": ["base"],
-    "move": {
-            "value": ["Red", "Yellow"]
-          },
+    "move": "",
     "speed": "",
-    "sails": {
-            "value": ["Full Sails", "Combat Sails", "Light Sails", "Anchored"]
-          },
+    "sails": "",
     "attributes": {},
-    "fleet": ""
+    "fleet": {}
   },
   "island": {
     "template": ["base"],
     "geolocalisation": {
-        "geox": null,
-        "geoy": null
-    }
+        "geox": "",
+        "geoy": ""
+    },
   }
 },
 "Item": {
-  "types": ["cannons", "upgrades"],
+  "types": ["cannon"],
   "templates": {
     "base": {
       "name": "",
       "description": ""
     }
   },
-  "cannons": {
+  "cannon": {
     "templates": ["base"],
-    "dicecolor": {
-            "value": ["Blue", "Red", "Black", "White"]
-          },
-    "range": null,
-    "ammo": {
-            "value": ["Regular", "Grape shot", "double shot", "Chain shot", "Red hot shot"]
-          },
-    "status": {
-            "value": ["Charged", "Fired", "Reloaded"]
-          },
-    "position": {
-            "value": ["Babord", "Tribord", "Sterm", "Bow"]
-          },
-    "qty": null,
-    "formula": "(@qty / 2)d10"
-  },
-  "upgrades": {
-    "templates": ["base"],
-    "bonus": "",
+    "dicecolor": "",
+    "range": "",
+    "formula": "d10"
   }
 }
 }
