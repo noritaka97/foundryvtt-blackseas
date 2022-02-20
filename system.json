@@ -2,12 +2,12 @@
   "name": "blackseas",
   "title": "Black Seas system for Foundry VTT",
   "description": "Warlord Games - Black Seas System for Foundry VTT.",
-  "version": "0.0.8",
+  "version": "0.0.5",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "author": "Norit@k@ Corps Dev",
-  "esmodules": ["module/simple.js"],
-  "styles": ["styles/simple.css"],
+  "esmodules": ["module/blackseas.js"],
+  "styles": ["styles/blackseas.css"],
   "packs": [],
   "languages": [
     {
@@ -20,8 +20,8 @@
   "gridDistance": 1,
   "gridUnits": "nd",
   "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
-   "url": "https://github.com/noritaka97/foundryvtt-blackseas/",
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/noritaka97/foundryvtt-blackseas/",
   "manifest": "https://raw.githubusercontent.com/noritaka97/foundryvtt-blackseas/main/system.json",
   "download": "https://github.com/noritaka97/foundryvtt-blackseas/archive/refs/heads/main.zip",
   "license": "LICENSE.txt"

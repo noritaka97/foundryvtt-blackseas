@@ -1,30 +1,87 @@
 {
 "Actor": {
-  "types": ["character"],
-  "character": {
-    "biography": "",
-    "health": {
-      "value": 10,
-      "min": 0,
-      "max": 10
-    },
-    "power": {
-      "value": 5,
-      "min": 0,
-      "max": 5
-    },
+  "types": ["ship", "island"],
+  "template": {
+      "base": {
+          "name": "",
+          "pavillon": {
+            "value": ["Black", "British", "Dutch", "French", "Spanish", "US"]
+          },
+          "size": {
+            "value": ["XS: Tiny", "X: Small", "M: Medium", "L: Large", "XL: Extra Large"]
+          },
+          "crewlvl": {
+            "value": ["Novice", "Regular", "Veteran"]
+          },
+          "weapon": {},
+          "cargo": {
+            "crew": [],
+            "loot": [],
+            "marchandise": [],
+            "passenger": []
+          },
+          "health": {
+            "value": null,
+            "min": null,
+            "max": null,
+            "surrender": null
+          },
+          "upgrade": {},
+          "critical": {},
+          "cout": null,
+          "xp": null,
+          "description": ""
+      }
+  },
+  "ship": {
+    "template": ["base"],
+    "move": {
+            "value": ["Red", "Yellow"]
+          },
+    "speed": "",
+    "sails": {
+            "value": ["Full Sails", "Combat Sails", "Light Sails", "Anchored"]
+          },
     "attributes": {},
-    "groups": {}
+    "fleet": ""
+  },
+  "island": {
+    "template": ["base"],
+    "geolocalisation": {
+        "geox": null,
+        "geoy": null
+    },
   }
 },
 "Item": {
-  "types": ["item"],
-  "item": {
-    "description": "",
-    "quantity": 1,
-    "weight": 0,
-    "attributes": {},
-    "groups": {}
+  "types": ["cannons", "upgrades"],
+  "templates": {
+    "base": {
+      "name": "",
+      "description": ""
+    }
+  },
+  "cannons": {
+    "templates": ["base"],
+    "dicecolor": {
+            "value": ["Blue", "Red", "Black", "White"]
+          },
+    "range": null,
+    "ammo": {
+            "value": ["Regular", "Grape shot", "double shot", "Chain shot", "Red hot shot"]
+          },
+    "status": {
+            "value": ["Charged", "Fired", "Reloaded"]
+          },
+    "position": {
+            "value": ["Babord", "Tribord", "Sterm", "Bow"]
+          },
+    "qty": null,
+    "formula": "(@qty / 2)d10"
+  },
+  "upgrades": {
+    "templates": ["base"],
+    "bonus": "",
   }
 }
 }
