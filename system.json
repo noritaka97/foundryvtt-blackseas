@@ -1,14 +1,13 @@
 {
-  "name": "boilerplate",
-  "title": "Boilerplate",
-  "description": "The Boilerplate system for FoundryVTT!",
-  "version": "1.1.1",
-  "minimumCoreVersion": "0.8.6",
+  "name": "worldbuilding",
+  "title": "Simple World-Building",
+  "description": "A minimalist game system which provides configurable Actor and Item templates to support free-form system agnostic game-play.",
+  "version": "0.6.4",
+  "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
-  "author": "Asacolips",
-  "esmodules": ["module/boilerplate.mjs"],
-  "styles": ["css/boilerplate.css"],
-  "scripts": [],
+  "author": "Atropos",
+  "esmodules": ["module/simple.js"],
+  "styles": ["styles/simple.css"],
   "packs": [],
   "languages": [
     {
@@ -21,8 +20,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://gitlab.com/foundrynet/worldbuilding/",
+  "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/0.6.x/system.json",
+  "download": "https://gitlab.com/foundrynet/worldbuilding/-/archive/release-064/worldbuilding-release-064.zip",
   "license": "LICENSE.txt"
 }
