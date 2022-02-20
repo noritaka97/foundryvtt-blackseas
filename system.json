@@ -2,7 +2,7 @@
   "name": "blackseas",
   "title": "Black Seas system for Foundry VTT",
   "description": "Warlord Games - Black Seas System for Foundry VTT.",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "author": "Norit@k@ Corps Dev",
