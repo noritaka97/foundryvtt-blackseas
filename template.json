@@ -1,55 +1,30 @@
 {
 "Actor": {
-  "types": ["ship", "island"],
-  "template": {
-      "base": {
-          "name": "",
-          "nation": "",
-          "size": "",
-          "crew": "",
-          "weapon": "",
-          "ammo": "",
-          "cargo": "",
-          "surrender": "",
-          "health": {
-            "value": 10,
-            "min": 0,
-            "max": 10
-          },
-          "upgrade": "",
-          "critical": "",
-          "description": ""
-      }
-  },
-  "ship": {
-    "template": ["base"],
-    "move": "",
-    "speed": "",
-    "sails": "",
-    "attributes": {},
-    "fleet": {}
-  },
-  "island": {
-    "template": ["base"],
-    "geolocalisation": {
-        "geox": "",
-        "geoy": ""
+  "types": ["character"],
+  "character": {
+    "biography": "",
+    "health": {
+      "value": 10,
+      "min": 0,
+      "max": 10
     },
+    "power": {
+      "value": 5,
+      "min": 0,
+      "max": 5
+    },
+    "attributes": {},
+    "groups": {}
   }
 },
 "Item": {
-  "types": ["cannon"],
-  "templates": {
-    "base": {
-      "name": "",
-      "description": ""
-    }
-  },
-  "cannon": {
-    "templates": ["base"],
-    "dicecolor": "",
-    "range": "",
-    "formula": "d10"
+  "types": ["item"],
+  "item": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "attributes": {},
+    "groups": {}
   }
 }
 }
