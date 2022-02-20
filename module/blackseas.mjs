@@ -1,14 +1,14 @@
 // JavaScript Document
 
 // Import document classes.
-import { BlackSeasActor } from "./documents/actor.js";
+import { BlackSeasActor } from "./documents/actor.mjs";
 // import { BlackSeasItem } from "./documents/item.mjs";
 // Import sheet classes.
-import { BlackSeasActorSheet } from "./sheets/actor-sheet.js";
+import { BlackSeasActorSheet } from "./sheets/actor-sheet.mjs";
 //import { BlackSeasItemSheet } from "./sheets/item-sheet.mjs";
 // Import helper/utility classes and constants.
-import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
-import { BLACKSEAS } from "./helpers/config.mjs";
+//import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
+//import { BLACKSEAS } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */

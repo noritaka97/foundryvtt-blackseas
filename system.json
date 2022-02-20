@@ -2,11 +2,11 @@
   "name": "blackseas",
   "title": "Black Seas system for Foundry VTT",
   "description": "Warlord Games - Black Seas System for Foundry VTT.",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "author": "Norit@k@ Corps Dev",
-  "esmodules": ["module/blackseas.js"],
+  "esmodules": ["module/blackseas.mjs"],
   "styles": ["styles/blackseas.css"],
   "packs": [],
   "languages": [
