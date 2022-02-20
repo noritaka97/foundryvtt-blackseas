@@ -1,11 +1,11 @@
 {
   "name": "blackseas",
-  "title": "Black Seas system for Foundry VTT",
-  "description": "Warlord Games - Black Seas System for Foundry VTT.",
-  "version": "0.0.6",
+  "title": "Simple World-Building",
+  "description": "A minimalist game system which provides configurable Actor and Item templates to support free-form system agnostic game-play.",
+  "version": "0.6.4",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
-  "author": "Noritaka",
+  "author": "Atropos",
   "esmodules": ["module/simple.js"],
   "styles": ["styles/simple.css"],
   "packs": [],
@@ -16,12 +16,12 @@
       "path": "lang/en.json"
     }
   ],
-  "gridDistance": 1,
-  "gridUnits": "nd",
+  "gridDistance": 5,
+  "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://github.com/noritaka97/foundryvtt-blackseas/",
-  "manifest": "https://raw.githubusercontent.com/noritaka97/foundryvtt-blackseas/main/system.json",
-  "download": "https://github.com/noritaka97/foundryvtt-blackseas/archive/refs/heads/main.zip",
+  "url": "https://gitlab.com/foundrynet/blackseas/",
+  "manifest": "https://gitlab.com/foundrynet/blackseas/raw/0.6.x/system.json",
+  "download": "https://gitlab.com/foundrynet/blackseas/-/archive/release-064/blackseas-release-064.zip",
   "license": "LICENSE.txt"
 }

@@ -1,7 +1,7 @@
 {
-  "name": "worldbuilding",
+  "name": "blackseas",
   "version": "1.0.0",
-  "description": "CSS compiler for the Worldbuilding system",
+  "description": "CSS compiler for the BlackSeas system",
   "scripts": {
     "css": "gulp css",
     "watch": "gulp",
